@@ -1,0 +1,17 @@
+body {
+	background-color: rgb(245, 233, 189);
+}
+.main-div {
+	height: 80vh;
+	text-align: center;
+}
+h2 {
+	padding-top: 15vh;
+	font-size: 60px;
+	text-align: center;
+	color: Orange;
+}
+.para {
+	padding-top: 5vh;
+	font-size: 40px;
+}

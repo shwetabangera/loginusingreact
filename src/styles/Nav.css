@@ -1,0 +1,60 @@
+.logo {
+	margin: 1rem;
+	width: auto;
+	height: 4rem;
+}
+
+.navbar {
+	height: auto;
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+	background-color: rgb(236, 196, 120);
+	position: fixed;
+	top: 0;
+}
+ul {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	padding-right: 10px;
+}
+
+.links li {
+	padding: 6px 0;
+	margin: 0 10px;
+}
+
+.links li a {
+	padding: 2px 0;
+	font-size: 2rem;
+	background-clip: text;
+}
+
+.links li a:hover {
+	background-size: 100%;
+}
+
+@media (max-width: 560px) {
+	.links li a {
+		font-size: 21px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.logo {
+		margin: 0.5rem;
+		width: auto;
+		height: 2rem;
+	}
+}
+
+@media (max-width: 300px) {
+	.navbar {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}
