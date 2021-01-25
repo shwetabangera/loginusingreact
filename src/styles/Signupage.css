@@ -55,3 +55,11 @@ input[type="password"] {
 		width: 80%;
 	}
 }
+@media (max-width: 560px) {
+	body {
+		font-size: 10px;
+	}
+	.signup {
+		width: 50%;
+	}
+}

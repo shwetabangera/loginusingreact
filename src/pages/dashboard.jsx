@@ -1,5 +1,5 @@
 import { Component } from "react";
-import Nav from "../components/Nav";
+
 import Footer from "../components/Footer";
 import "../styles/Dashboard.css";
 class Dashboard extends Component {

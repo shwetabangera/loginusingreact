@@ -57,9 +57,9 @@ input[type="password"] {
 }
 @media (max-width: 560px) {
 	body {
-		font-size: 12px;
+		font-size: 10px;
 	}
 	.login {
-		width: 80%;
+		width: 50%;
 	}
 }
